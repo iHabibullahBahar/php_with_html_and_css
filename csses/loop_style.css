@@ -1,0 +1,42 @@
+
+.color_box{
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 200px;
+}
+.box{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer_board{
+    height: 450;
+    width: 450;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chess_board{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400;
+    width: 400;
+    align-items: center;
+}
+.white_block{
+    background-color: white;
+    height: 50;
+    width: 50;
+}
+.black_block{
+    background-color: black;
+    height: 50;
+    width: 50;
+}
